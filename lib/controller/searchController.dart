@@ -14,10 +14,10 @@ class MySearchController with ChangeNotifier {
     notifyListeners();
 
     final url = Uri.parse(
-        "https://newsapi.org/v2/everything?q=$searchItem&from=2023-12-10&to=2023-12-10&sortBy=popularity&apiKey=78031ddda50f42efa8c72f7f64ea3f59");
+        "https://newsapi.org/v2/everything?q=$searchItem&from=2024-02-09&to=2024-02-09&sortBy=popularity&apiKey=78031ddda50f42efa8c72f7f64ea3f59");
 
     final response = await http.get(url);
-    print(response);
+    print(response.body);
 
     if (response.statusCode == 200) {
       decodedSearchData = jsonDecode(response.body);
