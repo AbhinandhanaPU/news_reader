@@ -25,6 +25,7 @@ News Reader App is a mobile application developed using Flutter and Dart. It ser
 Special thanks to the Flutter community for their continuous support, guidance, and contributions to the Flutter framework and ecosystem.
 
 [Flutter](https://flutter.dev) for the great cross platform framework
+
 ---
 
 **Disclaimer:** This application is for educational purposes and does not intend to infringe on any copyrights.
